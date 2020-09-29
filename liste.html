@@ -5,169 +5,283 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liste de naissance</title>
+    <link rel="stylesheet" href="liste.css">
 </head>
 
 <body>
     <header>
-        <a href="liste.html">Nos envies</a>
-        <a href="#">Notre famille</a>
-        <a href="#">Notre bébé</a>
-        <a href="#">Notre Maison</a>
+        <section class="navbar">
+            <a class="navlink" href="liste.html">Nos envies</a>
+            <a class="navlink" href="#">Notre famille</a>
+            <a class="navlink" href="#">Notre bébé</a>
+            <a class="navlink" href="#">Notre Maison</a></section>
     </header>
     <main>
-        <section>
-            <h1>Notre Liste de Naissance pour notre petit bout de chou
+        <section class="accueil">
+            <h1 id="accueiltitre">Notre Liste de Naissance pour notre petit bout de chou
             </h1>
         </section>
-        <article>
-            <p>
-                Depuis les 5 premiers mois de grossesse, Maxime a hâte de découvrir le monde ...
+        <article id="presentation">
+            <p class="presentationparagraph">
+                Depuis les 5 premiers mois de grossesse, Maxime a hâte de découvrir le monde ...<br>
                 En attendant nous préparons petit à petit son arrivée.</p>
-            <p>Parce que vous nous demandez souvent ce qui nous ferait plaisir, ou ce dont nous aurions besoin ... avec
-                cette liste, vous êtes sûrs de viser juste !
+            <p class="presentationparagraph">Parce que vous nous demandez souvent ce qui nous ferait plaisir, ou ce dont
+                nous aurions besoin ... avec
+                cette liste, vous êtes sûrs de viser juste !<br>
                 Nous y avons rassemblé tous nos essentiels et coups de coeur (♥) pour les mois à venir.</p>
-            <p>Nous vous remercions pour toutes ces attentions.
+            <p class="presentationparagraph">Nous vous remercions pour toutes ces attentions.<br>
                 Par petits coups de pieds, Maxime se manifeste, dans l'impatience d'essayer ses nouveaux jouets :-)</p>
-            <p>Marie et Laurent</p>
+            <p class="presentationparagraph">Marie et Laurent</p>
         </article>
-        <section>
-            <h2>1. Déjà bien équipés (évitons les doublons !)</h2>
-
-            <p>Parce qu'on a une famille, des amis au top et parce qu'on aime les bonnes occas' Nous avons déjà chiné ou
-                on
-                nous a déjà offert, donné et prêté de nombreuses choses utiles : poussette trio, transat, parc,
-                baignoire,
-                baby Cook, Cocoona baby, porte bébé, lit évolutif, table a langer, lit parapluie</p>
+        <section id="introlistedecourses">
+            <article>
+                <img src="Images/merci.jpg" id="merci"></article>
+            <article id="textintro">
+                <h2>1. Déjà bien équipés (évitons les doublons !)</h2>
+                <p>Parce qu'on a une famille, des amis au top et parce qu'on aime les bonnes occas' Nous avons déjà
+                    chiné ou
+                    on
+                    nous a déjà offert, donné et prêté de nombreuses choses utiles : poussette trio, transat, parc,
+                    baignoire,
+                    baby Cook, Cocoona baby, porte bébé, lit évolutif, table a langer, lit parapluie</p>
+            </article>
         </section>
         <section>
             <h3>Notre liste de courses</h3>
-            <section>
-                <h4>Ce que l'on nous a déja offert</h4>
-                <section>
-                    <h5>Rangement</h5>
-                    <figure>
-                        <img src="./Images/armoire.jpg">
-                        <figcaption>Armoire</figcaption>
-                    </figure>
-                    <p>Fait office de banc et permet de ranger les jeux. - Structure L99xP44xH56 > 50e - Bac 4e x 3 et
-                        2e x 3 = 18 e </p>
-                    <a>Vous pouvez le trouvez ici</a>
-                </section>
-                <section>
-                    <h5>Technologie</h5>
-                    <figure><img src="Images/babyphone.jpg">
-                        <figcaption>Babyphone</figcaption>
-                    </figure>
-                    <p>Affichage du niveau sonore Affichage de la température Activation berceuses à distance Activation
-                        veilleuse à distance Talkie Walkie </p>
-                    <a>Vous pouvez le trouvez ici</a>
-                </section>
-                <section>
-                    <h5>Repas</h5>
-                    <figure>
-                        <img src="Images/bavoire.jpg">
-                        <figcaption>Bavoire</figcaption>
-                    </figure>
-                    <p>Hé oui, pourquoi pas des bavoirs à faire soi-même ? On a une préférence pour les bavoirs bien
-                        larges (on sent que Maxime sera une bonne fourchette) alors à vos épingles ! ;-) </p>
-                    <a>Vous pouvez le trouvez ici</a>
-                </section>
-            </section>
-            <section>
-                <h4>Ce qui va nous etre offert par nos tres généreux amis</h4>
-                <section>
-                    <h5>Déco</h5>
-                    <figure><img src="Images/boules.jpg">
+            <table id="tablelistedecourses">
+                <tr>
+                    <th class="titreachat">Ce que l'on nous a déja offert</th>
+                </tr>
+                <tr class="dejaachetes">
+                    <td>
+                        <article class="articlelistedecourses">
+                            <h5 class="categorie">Rangement</h5>
+                            <figure class="imgcontainer">
+                                <img src="./Images/armoire.jpg" class="imgarticle">
+                                <figcaption>Armoire</figcaption>
+                            </figure>
+                            <p class="articledescription">Fait office de banc et permet de ranger les jeux. - Structure
+                                L99xP44xH56 > 50e - Bac 4e
+                                x 3
+                                et
+                                2e x 3 = 18 e </p>
+                            <a class="articlelink" href="https://www.ikea.com/fr/fr/p/trofast-structure-blanc-80153800/">Vous pouvez le
+                                trouvez ici</a>
+                        </article>
+                    </td>
+                </tr>
+                <tr class="dejaachetes">
+                    <td>
+                        <article class="articlelistedecourses">
+                            <h5 class="categorie">Technologie</h5>
+                            <figure class="imgcontainer"><img src="Images/babyphone.jpg" class="imgarticle">
+                                <figcaption>Babyphone</figcaption>
+                            </figure>
+                            <p class="articledescription">Affichage du niveau sonore Affichage de la température
+                                Activation berceuses à distance
+                                Activation
+                                veilleuse à distance Talkie Walkie </p>
+                            <a class="articlelink" href="https://www.aubert.com/c/2917/produits/chambre/securite/babyphones">Vous pouvez le
+                                trouvez ici</a>
+                        </article>
+                    </td>
+                </tr>
+                <tr class="dejaachetes">
+                    <td>
+                        <article class="articlelistedecourses">
+                            <h5 class="categorie">Repas</h5>
+                            <figure class="imgcontainer">
+                                <img src="Images/bavoire.jpg" class="imgarticle">
+                                <figcaption>Bavoire</figcaption>
+                            </figure>
+                            <p class="articledescription">Hé oui, pourquoi pas des bavoirs à faire soi-même ? On a une
+                                préférence pour les bavoirs
+                                bien
+                                larges (on sent que Maxime sera une bonne fourchette) alors à vos épingles ! ;-) </p>
+                            <a class="articlelink" href="http://mespetitescoutures.com/mes-petits-bavoirs-le-tutoriel/">Vous pouvez le
+                                trouvez ici</a>
+                        </article>
+                    </td>
+                </tr>
+                <tr>
+        </section>
+        <th class="titreachat">Ce qui va nous etre offert par nos tres généreux amis</th>
+        </tr>
+        <tr class="dejaoffert">
+            <td>
+                <article class="articlelistedecourses">
+                    <h5 class="categorie">Déco</h5>
+                    <figure class="imgcontainer"><img src="Images/boules.jpg" class="imgarticle">
                         <figcaption>Guirlande à boules</figcaption>
                     </figure>
-                    <p>Complètera la décoration de la chambre en diffusant une lumière légèrement colorée et décorative.
+                    <p class="articledescription">Complètera la décoration de la chambre en diffusant une lumière
+                        légèrement colorée et
+                        décorative.
                     </p>
-                    <a>Vous pouvez le trouvez ici</a>
-                </section>
-                <section>
-                    <h5>Pratique</h5>
-                    <figure><img src="Images/bracelet.jpg">
+                    <a class="articlelink"
+                        href="https://www.berceaumagique.com/produit_la-case-de-cousin-paul-coffret-guirlande-lumineuse-l-original-brooklyn-gris-perle_78907.html">Vous
+                        pouvez le trouvez ici</a>
+                </article>
+            </td>
+        </tr>
+        <tr class="dejaoffert">
+            <td>
+                <article class="articlelistedecourses">
+                    <h5 class="categorie">Pratique</h5>
+                    <figure class="imgcontainer"><img src="Images/bracelet.jpg" class="imgarticle">
                         <figcaption>Accroche-tétines</figcaption>
                     </figure>
-                    <p>'Mais elle est passée où la tétine ???!!' ;-) Pour ceux qui s'en sentent capables, voici un
-                        exemple de tutoriel pour fabriquer une attache-tétine unique au monde avec les tissus de votre
-                        choix ! Mais si vous avez d'autres pistes, elles sont les bienvenues... Ou si vous craquez dans
+                    <p class="articledescription">'Mais elle est passée où la tétine ???!!' ;-) Pour ceux qui s'en
+                        sentent capables, voici
+                        un
+                        exemple de tutoriel pour fabriquer une attache-tétine unique au monde avec les tissus de
+                        votre
+                        choix ! Mais si vous avez d'autres pistes, elles sont les bienvenues... Ou si vous
+                        craquez
+                        dans
                         une boutique...</p>
-                    <a>Vous pouvez le trouvez ici</a>
-                </section>
-                <section>
-                    <h5>Déco</h5>>
-                    <figure><img src="Images/champignon.jpg">
-                        <figcaption>champignon décorative avec lumiére</figcaption>
+                    <a class="articlelink"
+                        href="http://lechatetlaiguille.blogs.marieclaireidees.com/archive/2011/10/24/attache-tetine-a-faire-soi-meme.html">Vous
+                        pouvez le trouvez ici</a>
+                </article>
+            </td>
+        </tr>
+        <tr class="dejaoffert">
+            <td>
+                <article class="articlelistedecourses">
+                    <h5 class="categorie">Déco</h5>
+                    <figure class="imgcontainer"><img src="Images/champignon.jpg" class="imgarticle">
+                        <figcaption>Champignon décorative avec lumiére</figcaption>
                     </figure>
-                    <p>Pour décorer la chambre et faire une lumiere douce </p>
-                    <a>Vous pouvez le trouvez ici</a>
-                </section>
-            </section>
-            <section>
-                <h4>Ce dont a besoin urgamment dès la naissance du bébé</h4>
-                <section>
-                    <h5>Soins</h5>
-                    <figure><img src="Images/creme.jpg">
+                    <p class="articledescription">Pour décorer la chambre et faire une lumiere douce </p>
+                    <a class="articlelink"
+                        href="https://www.berceaumagique.com/produit_egmont-toys-grande-veilleuse-champignon-rouge_46896.html">Vous
+                        pouvez le trouvez ici</a>
+                </article>
+            </td>
+        </tr>
+        <tr>
+            <th class="titreachat">Ce dont a besoin urgamment dès la naissance du bébé</th>
+        </tr>
+        <tr class="urgent">
+            <td>
+                <article class="articlelistedecourses">
+                    <h5 class="categorie">Soins</h5>
+                    <figure class="imgcontainer">
+                        <img src="Images/creme.jpg" class="imgarticle">
                         <figcaption>Crème et soins bébé</figcaption>
                     </figure>
-                    <p>Avis aux connaisseurs en dermatologie et soins bébé : on serait ravi de recevoir des produits de
-                        soin spécifiques pour bébé de bonne composition et de qualité... Savon, lotion nettoyante, crème
-                        pour les fesses, produit hydratant ou réparateur pour les peaux irritées, ... bref tout ce qui
+                    <p class="articledescription">Avis aux connaisseurs en dermatologie et soins bébé : on serait ravi
+                        de recevoir des
+                        produits
+                        de
+                        soin spécifiques pour bébé de bonne composition et de qualité... Savon, lotion
+                        nettoyante,
+                        crème
+                        pour les fesses, produit hydratant ou réparateur pour les peaux irritées, ... bref tout
+                        ce
+                        qui
                         peut aider Maxime à avoir une belle peau de bébé toute saine !</p>
-                    <a>Vous pouvez le trouvez ici</a>
-                </section>
-                <section>
-                    <h5>Jouets</h5>
-                    <figure><img src="Images/poisson.jpg">
+                    <a class="articlelink" href="https://pharmasimple.com/fr/creme-hydratante-bebe"> Vous pouvez le trouvez ici</a>
+                </article>
+            </td>
+        </tr>
+        <tr class="urgent">
+            <td>
+                <article class="articlelistedecourses">
+                    <h5 class="categorie">Jouets</h5>
+                    <figure class="imgcontainer">
+                        <img src="Images/poisson.jpg" class="imgarticle">
                         <figcaption>Cerf Volant Poissons</figcaption>
                     </figure>
-                    <p>Aussi léger que l’air, ce petit poisson carpe est aussi un cerf-volant. Ses yeux tournent avec
-                        la brise. Existe dans 6 jolies couleurs. Bambou et soie fabriqué et peint à la main 18 x 28 cm
+                    <p class="articledescription">Aussi léger que l’air, ce petit poisson carpe est aussi un
+                        cerf-volant. Ses yeux tournent
+                        avec
+                        la brise. Existe dans 6 jolies couleurs. Bambou et soie fabriqué et peint à la main 18 x
+                        28
+                        cm
                     </p>
-                    <a>Vous pouvez le trouvez ici</a>
-                </section>
-                <section>
-                    <h5>Déco</h5>
-                    <figure><img src="Images/guirlande.jpg">
+                    <a class="articlelink" href="https://www.amazon.fr/cerf-volant-japonais/s?k=cerf+volant+japonais&page=2">Vous pouvez le
+                        trouvez ici</a>
+                </article>
+            </td>
+        </tr>
+        <tr class="urgent">
+            <td>
+                <article class="articlelistedecourses">
+                    <h5 class="categorie">Déco</h5>
+                    <figure class="imgcontainer"><img src="Images/guirlande.jpg" class="imgarticle">
                         <figcaption>Guirlande prénom</figcaption>
                     </figure>
-                    <p>Pour décorer la chambre de notre petit loup, une jolie guirlande personnalisée... Qui relève le
-                        défi ? Ces couleurs-là seront top dans sa petite chambre (on peut y ajouter aussi un peu de vert
+                    <p class="articledescription">Pour décorer la chambre de notre petit loup, une jolie guirlande
+                        personnalisée... Qui
+                        relève
+                        le
+                        défi ? Ces couleurs-là seront top dans sa petite chambre (on peut y ajouter aussi un peu
+                        de
+                        vert
                         d'eau ou de turquoise doux)</p>
-                    <a>Vous pouvez le trouvez ici</a>
-                </section>
-            </section>
-            <section>
-                <h4>Ce dont peut avoir besoin</h4>
-                <section>
-                    <h5>Eveil</h5>
-                    <figcaption>Mobile</figcaption>
+                    <a class="articlelink" href="https://www.etsy.com/fr/listing/216655432/lettres-de-tissu-guirlande-prenom"> Vous pouvez
+                        le trouvez ici</a>
+                </article>
+            </td>
+        </tr>
+        <tr>
+            <th class="titreachat">Ce dont peut avoir besoin</th>
+        </tr>
+        <tr class="besoin">
+            <td>
+                <article class="articlelistedecourses">
+                    <h5 class="categorie">Eveil</h5>
+                    <figure class="imgcontainer"><img src="Images/trucquitombe.jpg" class="imgarticle">
+                        <figcaption>Mobile</figcaption>
                     </figure>
-                    <img src="Images/trucquitombe.jpg">
-                    <p>Pour ceux ou celles doués de leurs mains : un petit mobile ou guirlande origami avec de jolis
+                    <p class="articledescription">Pour ceux ou celles doués de leurs mains : un petit mobile ou
+                        guirlande origami avec de
+                        jolis
                         papiers ♥</p>
-                    <a>Vous pouvez le trouvez ici</a>
-                </section>
-                <section>
-                    <h5>Déco</h5>
-                    <img src="Images/housse.jpg">
-                    <figcaption>Housse de lit</figcaption>
+                    <a class="articlelink" href="http://maurinesblog.blogspot.com/2012/04/mobile-origami.html">Vous pouvez le trouvez
+                        ici</a>
+                </article>
+            </td>
+        </tr>
+        <tr class="besoin">
+            <td>
+                <article class="articlelistedecourses">
+                    <h5 class="categorie">Déco</h5>
+                    <figure class="imgcontainer">
+                        <img src="Images/housse.jpg" class="imgarticle">
+                        <figcaption>Housse de lit</figcaption>
                     </figure>
-                    <p>C'est l'aventure dans la jungle, avec ce tour de lit pour petit garçon, qui protègera votre bébé
-                        dans son lit, et l'accompagnera en toute sérénité dans des rêves d'aventures ou de douceur. Tour
+                    <p class="articledescription">C'est l'aventure dans la jungle, avec ce tour de lit pour petit
+                        garçon, qui protègera
+                        votre
+                        bébé
+                        dans son lit, et l'accompagnera en toute sérénité dans des rêves d'aventures ou de
+                        douceur.
+                        Tour
                         de lit doudou protecteur ajustable pour les lit bébé 60x120 e</p>
-                    <a>Vous pouvez le trouvez ici</a>
-                </section>
-                <section>
-                    <h5>Déco</h5>
-                    <img src="Images/nuage.jpg">
-                    <figcaption>Coussin Nuage</figcaption>
+                    <a class="articlelink"
+                        href="https://www.selene-et-gaia.com/11960-1155-tour-de-lit-dragon-bleu-all-over-en-coton-pour-bebe-dragono-ao.html#/93-couleur-imprime/8-taille-tour_de_lit_180x40">Vous
+                        pouvez le trouvez ici</a>
+                </article>
+            </td>
+        </tr>
+        <tr class="besoin">
+            <td>
+                <article class="articlelistedecourses">
+                    <h5 class="categorie">Déco</h5>
+                    <figure class="imgcontainer"><img src="Images/nuage.jpg" class="imgarticle">
+                        <figcaption>Coussin Nuage</figcaption>
                     </figure>
-                    <p>Celui ci à l'avantage d'être lavable en machine </p>
-                    <a>Vous pouvez le trouvez ici</a>
-                </section>
-            </section>
+                    <p class="articledescription">Celui ci à l'avantage d'être lavable en machine </p>
+                    <a class="articlelink"
+                        href="https://www.berceaumagique.com/produit_bemini-coussin-nuage-softy-stary-ecru-30-cm_128197.html">Vous
+                        pouvez le trouvez ici</a>
+                </article>
+            </td>
+        </tr>
+        </table>
         </section>
     </main>
     <footer>
