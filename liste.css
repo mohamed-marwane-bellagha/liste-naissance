@@ -2,13 +2,16 @@
     font-family: newCursive;
     src:url("./Images/Fonts/Cursive\ standard.ttf")
 }
-body,html{
+body{
     height:100%;
     width:100%;
     margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .navbar{
-    height:10%;
+    height:2%;
     width:100%;
     background-color: #ef6953;
     padding-top: 1%;
@@ -16,6 +19,8 @@ body,html{
     display: flex;
     justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    position:fixed
 }
 .navlink{
     text-decoration: none;
@@ -27,16 +32,17 @@ body,html{
     width:100%;
     background-image: url(./Images/enceinte.jpg);
     margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-#accueiltitre{
+.accueiltitre{
     margin:0;
-    padding-top:20%;
-    padding-left:5%;
     font-family: newCursive;
-    font-size: 180%;
+    font-size: 250%;
     color:#ef6953
 }
-#presentation{
+.presentation{
     background-image: url(./Images/marbre.jpg);
     background-size: cover;
     background-repeat:no-repeat
@@ -104,6 +110,12 @@ body,html{
     font-family: Arial, Helvetica, sans-serif;
     color:#f28473
 }
+#titretable{
+font-family: newCursive;
+color:#f28473;
+margin: 0ch;
+font-size:150%
+}
 .titreachat{
     padding-top: 1%;
     padding-bottom: 1%;
@@ -112,18 +124,69 @@ body,html{
     color:#ef6953
 }
 .dejaachetes{
-    background-color: green;
+    background-color:lightgreen;
 }
 #tablelistedecourses{
     border: 0;
     border-collapse: collapse;
 }
 .dejaoffert{
-    background-color: orange;
+    background-color:lightsalmon;
 }
 .urgent{
-    background-color: red;
+    background-color: lightpink
 }
 .besoin{
     background-color: lightblue;
+}
+#paragraphend{
+    margin: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: newCursive;
+    text-align: center;
+    font-size:120%
+}
+#linkformulaire{
+    color:#f28473;
+    text-decoration: none;
+}
+#footer{
+    background-color:#f28473;
+    margin: 0;
+    color:white;
+    height:20%
+}
+#footer p{
+    margin:0;
+    font-family: newCursive;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top:2%;
+    font-size:150%
+}
+#ajoutcadeaux{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:25%;
+    font-family:Arial, Helvetica, sans-serif;
+    height:100%;
+    color:#f28473
+}
+.formlabel{
+    margin-top:3%
+}
+#inputdescription{
+    height:35%
+}
+#submitbutton{
+    margin-top: 3%;
+    width:50%;
+    margin-left:25%;
+    background-color: #f28473;
+    color:white;
+    border-radius: 100px;
+    border:none;
+    height:25px
 }
